@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work | Aditya</title>
+  <meta name="description" content="Explore code experiments and creative projects by engineering student Aditya.">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-curtain" id="page-curtain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Aditya</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="work.html" class="nav-link active">Work</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="work.html" class="nav-link active">Work</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+
+  <div class="mascot" id="mascot">
+    <div class="mascot-bubble" id="mascot-bubble">Pick a project!</div>
+    <div class="mascot-img" id="mascot-img" role="img" aria-label="Cartoon student mascot"></div>
+  </div>
+
+  <main>
+    <!-- Section 1: Intro & Filter -->
+    <section class="section theme-ink" id="work-hero" data-pose="point" data-say="Pick a project!">
+      <div class="container hero-container">
+        <span class="section-label" style="color: var(--sun);">Portfolio Directory</span>
+        <h1 class="giant-heading hero-title">My work.</h1>
+        <p class="sub-heading">Hands-on student experiments, engineering coursework, and creative side quests.</p>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="code">Code</button>
+          <button class="filter-btn" data-filter="creative">Creative</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Projects Grid -->
+    <section class="section theme-paper" data-pose="draw" data-say="Hover for magic.">
+      <div class="container">
+        <span class="section-label">All Projects</span>
+        <h2 class="section-heading">Built with patience &amp; curiosity.</h2>
+        <div class="card-grid card-grid-3" id="projects-grid">
+          <!-- 01 -->
+          <div class="project-card reveal" data-category="code">
+            <div class="project-cover cover-01">
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Code</span>
+                <h3 class="project-title">Undo / Redo Text Editor</h3>
+                <p class="project-desc">Text editor simulation with undo and redo using stacks; C++ logic with an
+                  HTML/CSS interface.</p>
+              </div>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 02 -->
+          <div class="project-card reveal" data-category="code">
+            <div class="project-cover cover-02">
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Code</span>
+                <h3 class="project-title">Material Science Lab Simulation</h3>
+                <p class="project-desc">Interactive animated webpage explaining material behaviour in a simple, funny
+                  way.</p>
+              </div>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 03 -->
+          <div class="project-card reveal" data-category="code">
+            <div class="project-cover cover-03">
+              <span class="project-number">03</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Code</span>
+                <h3 class="project-title">This Portfolio</h3>
+                <p class="project-desc">You're standing inside it.</p>
+              </div>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 04 -->
+          <div class="project-card reveal" data-category="creative">
+            <div class="project-cover cover-04">
+              <span class="project-number">04</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Creative</span>
+                <h3 class="project-title">Animated Short Story</h3>
+                <p class="project-desc">Script, images, AI video, voiceover and edit in one short film.</p>
+              </div>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 05 -->
+          <div class="project-card reveal" data-category="creative">
+            <div class="project-cover cover-05">
+              <span class="project-number">05</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Creative</span>
+                <h3 class="project-title">3D-Style Product Visual</h3>
+                <p class="project-desc">CGI-style product shot with moody lighting.</p>
+              </div>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 06 -->
+          <div class="project-card reveal" data-category="creative">
+            <div class="project-cover cover-06">
+              <span class="project-number">06</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Creative</span>
+                <h3 class="project-title">Festival Poster</h3>
+                <p class="project-desc">Bold poster design for a community celebration.</p>
+              </div>
+              <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Coming Soon CTA -->
+    <section class="section theme-blue" data-pose="laugh" data-say="More coming soon!">
+      <div class="container">
+        <span class="section-label">Future Work</span>
+        <h2 class="giant-heading reveal">More cooking in my head.</h2>
+        <p class="sub-heading reveal">Currently prototyping new physics simulations, motion graphics, and algorithmic
+          visualizations.</p>
+        <div class="btn-row reveal">
+          <a href="contact.html" class="btn btn-sun">Get in touch &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">Made by Aditya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

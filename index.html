@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya | Student Portfolio</title>
+  <meta name="description"
+    content="Personal school portfolio of Aditya, engineering student, builder, and visual creator.">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-curtain" id="page-curtain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo" id="site-logo">Aditya</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="work.html" class="nav-link">Work</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="work.html" class="nav-link">Work</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+
+  <div class="mascot" id="mascot">
+    <div class="mascot-bubble" id="mascot-bubble">Hi! Want the tour?</div>
+    <div class="mascot-img" id="mascot-img" role="img" aria-label="Cartoon student mascot"></div>
+  </div>
+
+  <main>
+    <!-- Section 1: Hero -->
+    <section class="section theme-blue" id="hero-section" data-pose="laugh" data-say="Hi! Want the tour?">
+      <div class="container hero-container">
+        <span class="section-label">Engineering Student &amp; Creator</span>
+        <h1 class="giant-heading hero-title">I make ideas move.</h1>
+        <p class="sub-heading">Student. Builder. Storyteller.</p>
+        <div class="btn-row">
+          <a href="work.html" class="btn btn-sun" id="hero-work-btn">See my work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Short version -->
+    <section class="section theme-paper" data-pose="point" data-say="Here's the short version.">
+      <div class="container">
+        <span class="section-label">Short Version</span>
+        <div class="scroll-fill-wrap">
+          <p class="scroll-fill" id="scroll-fill-p">
+            I'm a second-year engineering student who loves building things that look good and actually work. I learn by
+            trying, breaking it, and fixing the root cause, not just the surface.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Build / Create / Think -->
+    <section class="section theme-sun" data-pose="action" data-say="Lights, camera, code!">
+      <div class="container">
+        <span class="section-label">How I Work</span>
+        <h2 class="section-heading">Curiosity turned into craft.</h2>
+        <div class="card-grid card-grid-3">
+          <div class="card reveal">
+            <span class="section-label">Code</span>
+            <h3 class="card-title">BUILD</h3>
+            <p class="card-desc">HTML, CSS, JavaScript, C++ basics</p>
+          </div>
+          <div class="card reveal">
+            <span class="section-label">Visual</span>
+            <h3 class="card-title">CREATE</h3>
+            <p class="card-desc">AI-assisted video, animation, posters, design</p>
+          </div>
+          <div class="card reveal">
+            <span class="section-label">Mindset</span>
+            <h3 class="card-title">THINK</h3>
+            <p class="card-desc">Simple ideas, clean execution</p>
+          </div>
+        </div>
+      </div>
+      <div class="marquee-wrap">
+        <div class="marquee-track">
+          <span class="marquee-item">ALGORITHMS &amp; DATA STRUCTURES</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">MOTION GRAPHICS</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">FRONT-END CODE</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">STORYTELLING</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">CREATIVE PROTOTYPING</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">C++ EXPERIMENTS</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">ALGORITHMS &amp; DATA STRUCTURES</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">MOTION GRAPHICS</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">FRONT-END CODE</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">STORYTELLING</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">CREATIVE PROTOTYPING</span>
+          <span class="marquee-item">&bull;</span>
+          <span class="marquee-item">C++ EXPERIMENTS</span>
+          <span class="marquee-item">&bull;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Featured Projects -->
+    <section class="section theme-lilac" data-pose="draw" data-say="Fresh from my desk.">
+      <div class="container">
+        <span class="section-label">Featured Projects</span>
+        <h2 class="section-heading">Fresh from my desk.</h2>
+        <div class="card-grid card-grid-3">
+          <div class="project-card reveal">
+            <div class="project-cover cover-01">
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Code</span>
+                <h3 class="project-title">Undo / Redo Text Editor</h3>
+                <p class="project-desc">Text editor simulation with undo and redo using stacks; C++ logic with an
+                  HTML/CSS interface.</p>
+              </div>
+              <a href="work.html" class="project-link">View in Work &rarr;</a>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-cover cover-02">
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Code</span>
+                <h3 class="project-title">Material Science Lab Simulation</h3>
+                <p class="project-desc">Interactive animated webpage explaining material behaviour in a simple, funny
+                  way.</p>
+              </div>
+              <a href="work.html" class="project-link">View in Work &rarr;</a>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-cover cover-04">
+              <span class="project-number">04</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <span class="project-tag">Creative</span>
+                <h3 class="project-title">Animated Short Story</h3>
+                <p class="project-desc">Script, images, AI video, voiceover and edit in one short film.</p>
+              </div>
+              <a href="work.html" class="project-link">View in Work &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="btn-row">
+          <a href="work.html" class="btn btn-ink">Explore all projects &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: My Brain in 3 Lines -->
+    <section class="section theme-ink" data-pose="think" data-say="My brain, in 3 lines.">
+      <div class="container">
+        <span class="section-label" style="color: var(--sun);">Mindset</span>
+        <p class="giant-quote-line reveal">"Simple beats complicated."</p>
+        <p class="giant-quote-line reveal">"Make it unique, never copy-paste."</p>
+        <p class="giant-quote-line reveal">"Done well beats done fast."</p>
+      </div>
+    </section>
+
+    <!-- Section 6: Closing CTA -->
+    <section class="section theme-coral" data-pose="laugh" data-say="Bye... or say hi?">
+      <div class="container">
+        <span class="section-label">Connect</span>
+        <h2 class="giant-heading reveal">Let's make something.</h2>
+        <p class="sub-heading reveal">Always excited to team up for student projects, hackathons, or study brainstorms.
+        </p>
+        <div class="btn-row reveal">
+          <a href="contact.html" class="btn btn-ink" id="cta-contact-btn">Say Hi</a>
+          <a href="about.html" class="btn btn-paper" id="cta-about-btn">Read my story</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">Made by Aditya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

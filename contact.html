@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Aditya</title>
+  <meta name="description"
+    content="Get in touch with student builder Aditya for questions, collaboration, and project discussions.">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-curtain" id="page-curtain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Aditya</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="work.html" class="nav-link">Work</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="work.html" class="nav-link">Work</a>
+    <a href="contact.html" class="nav-link active">Contact</a>
+  </div>
+
+  <div class="mascot" id="mascot">
+    <div class="mascot-bubble" id="mascot-bubble">Psst. You can grab me.</div>
+    <div class="mascot-img" id="mascot-img" role="img" aria-label="Cartoon student mascot"></div>
+  </div>
+
+  <main>
+    <!-- Section 1: Hero & Quick Links -->
+    <section class="section theme-ink" id="contact-hero" data-pose="laugh" data-say="Psst. You can grab me.">
+      <div class="container hero-container">
+        <span class="section-label" style="color: var(--sun);">Get in touch</span>
+        <h1 class="giant-heading hero-title">Got an idea? Say hi.</h1>
+        <p class="sub-heading">I love discussing creative projects, algorithmic puzzles, and interesting tech
+          experiments.</p>
+
+        <div class="email-box reveal">
+          <span class="email-text" id="contact-email">adii@gmail.com</span>
+          <button class="btn btn-sun" id="copy-email-btn" type="button">Copy</button>
+        </div>
+
+        <div class="social-links reveal">
+          <a href="[URL]" class="social-pill" target="_blank" rel="noopener noreferrer">GitHub [URL]</a>
+          <a href="[URL]" class="social-pill" target="_blank" rel="noopener noreferrer">LinkedIn [URL]</a>
+          <a href="[URL]" class="social-pill" target="_blank" rel="noopener noreferrer">Instagram [URL]</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Contact Form -->
+    <section class="section theme-paper" data-pose="action" data-say="Drop a note!">
+      <div class="container">
+        <span class="section-label">Direct Message</span>
+        <h2 class="section-heading">Send me a note.</h2>
+        <p class="reveal">Have a suggestion, feedback on my projects, or an idea to build together? Drop a line below:
+        </p>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <label for="sender-name" class="form-label">Your Name</label>
+            <input type="text" id="sender-name" class="form-input" placeholder="What should I call you?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="sender-email" class="form-label">Your Email</label>
+            <input type="email" id="sender-email" class="form-input" placeholder="Where can I write back?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="sender-message" class="form-label">Your Message</label>
+            <textarea id="sender-message" class="form-textarea" placeholder="Tell me about your idea or project..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-ink" id="form-submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">Made by Aditya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

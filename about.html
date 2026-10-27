@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Aditya</title>
+  <meta name="description"
+    content="Learn more about Aditya, engineering student, philosophy, toolbox, and mindset.">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-curtain" id="page-curtain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Aditya</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li><a href="work.html" class="nav-link">Work</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link active">About</a>
+    <a href="work.html" class="nav-link">Work</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+
+  <div class="mascot" id="mascot">
+    <div class="mascot-bubble" id="mascot-bubble">Nice to meet you!</div>
+    <div class="mascot-img" id="mascot-img" role="img" aria-label="Cartoon student mascot"></div>
+  </div>
+
+  <main>
+    <!-- Section 1: Hero -->
+    <section class="section theme-blue" id="about-hero" data-pose="laugh" data-say="Nice to meet you!">
+      <div class="container hero-container">
+        <span class="section-label">Background</span>
+        <h1 class="giant-heading hero-title">A little about me.</h1>
+        <p class="sub-heading">Curious mind, engineering student, and builder of fun things.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: Story -->
+    <section class="section theme-paper" data-pose="point" data-say="Here's my story.">
+      <div class="container">
+        <span class="section-label">My Story</span>
+        <h2 class="section-heading">How I look at the world.</h2>
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 65ch;">
+          <p class="reveal">
+            I am Aditya from [YOUR CITY], a second-year engineering student. I like turning an idea into something
+            people can see, click and enjoy.
+          </p>
+          <p class="reveal">
+            I prefer a student's point of view: easy words, less text, fun explanations. Most tech sites feel like
+            reading a dry manual after midnight; I build projects that feel like an approachable workshop with playful
+            energy.
+          </p>
+          <p class="reveal">
+            When I'm not untangling pointer errors in C++ or learning front-end animations, I'm experimenting with
+            generative animation tools, sketching layout ideas, or looking for everyday student problems that can be
+            solved with a clean script. [EDIT ME]
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: How I think -->
+    <section class="section theme-sun" data-pose="think" data-say="How my gears turn.">
+      <div class="container">
+        <span class="section-label">Philosophy</span>
+        <h2 class="section-heading">How I think.</h2>
+        <div class="card-grid card-grid-4">
+          <div class="card reveal">
+            <h3 class="card-title">Root-cause fixer</h3>
+            <p class="card-desc">I fix the real problem, not the surface.</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="card-title">Unique or nothing</h3>
+            <p class="card-desc">I avoid copy-paste work.</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="card-title">Simple first</h3>
+            <p class="card-desc">Small and clear beats big and messy.</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="card-title">Feedback lover</h3>
+            <p class="card-desc">I improve fast through iteration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: My toolbox -->
+    <section class="section theme-lilac" data-pose="action" data-say="Tools of the trade.">
+      <div class="container">
+        <span class="section-label">Skills &amp; Tech</span>
+        <h2 class="section-heading">My toolbox.</h2>
+        <p class="reveal">Every tool I use to prototype, develop code, animate, and communicate concepts clearly:</p>
+        <div class="chip-grid reveal">
+          <span class="toolbox-chip">HTML</span>
+          <span class="toolbox-chip">CSS</span>
+          <span class="toolbox-chip">JavaScript</span>
+          <span class="toolbox-chip">C++</span>
+          <span class="toolbox-chip">Data Structures</span>
+          <span class="toolbox-chip">GitHub</span>
+          <span class="toolbox-chip">Canva</span>
+          <span class="toolbox-chip">AI video tools</span>
+          <span class="toolbox-chip">Prompt writing</span>
+          <span class="toolbox-chip">Storytelling</span>
+          <span class="toolbox-chip">Video editing</span>
+          <span class="toolbox-chip">Google Antigravity</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Quick facts -->
+    <section class="section theme-paper" data-pose="draw" data-say="Random trivia time!">
+      <div class="container">
+        <span class="section-label">Personal Bits</span>
+        <h2 class="section-heading">Quick facts.</h2>
+        <div class="card-grid card-grid-4">
+          <div class="card reveal">
+            <span class="section-label">Routine</span>
+            <h3 class="card-title">Fuel: [EDIT]</h3>
+            <p class="card-desc">Warm chai, late-night playlists, and fresh ideas.</p>
+          </div>
+          <div class="card reveal">
+            <span class="section-label">Growth</span>
+            <h3 class="card-title">Currently learning: [EDIT]</h3>
+            <p class="card-desc">Graph algorithms and shader-inspired CSS animations.</p>
+          </div>
+          <div class="card reveal">
+            <span class="section-label">Essentials</span>
+            <h3 class="card-title">Can't live without: [EDIT]</h3>
+            <p class="card-desc">A pocket notebook, terminal shortcuts, and clean mechanical keys.</p>
+          </div>
+          <div class="card reveal">
+            <span class="section-label">Goal</span>
+            <h3 class="card-title">Dream: [EDIT]</h3>
+            <p class="card-desc">Building an interactive educational universe students actually love using.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Closing CTA -->
+    <section class="section theme-ink" data-pose="laugh" data-say="Let's chat!">
+      <div class="container">
+        <span class="section-label" style="color: var(--sun);">Get in touch</span>
+        <h2 class="giant-heading reveal">Let's talk code &amp; ideas.</h2>
+        <p class="sub-heading reveal">Got a question or want to collaborate on a school project?</p>
+        <div class="btn-row reveal">
+          <a href="contact.html" class="btn btn-sun">Reach out &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">Made by Aditya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
